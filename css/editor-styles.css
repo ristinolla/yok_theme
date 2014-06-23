@@ -1379,11 +1379,6 @@
   padding: 10px;
   font-size: 10px;
 }
-body > .footer-push {
-  min-height: 100%;
-  height: auto !important;
-  margin-bottom: -124px;
-}
 .semidark {
   background: #f6f6f6;
 }
@@ -1402,7 +1397,7 @@ body > .footer-push {
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f6f6f6;
+  background-color: #343434;
   color: #04274a;
 }
 h1,
@@ -1833,7 +1828,6 @@ h1.entry-title {
 }
 @media (max-width: 992px) {
   .site-footer {
-    min-height: 124px;
     text-align: center;
   }
   .site-footer a,
