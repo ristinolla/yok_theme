@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Edgeone 1.0\n"
+"POT-Creation-Date: 2014-02-14 10:46+0200\n"
+"PO-Revision-Date: 2014-02-14 10:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: perttu\n"
+"Language: suomi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Voe räkä, sivua ei löytynyt."
+
+#: ../404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Näyttää siltä että täällä ei ole yhtään mitään. Voit kokeilla hakua tuosta "
+"alhaalta."
+
+#: ../archive-pr_event.php:15
+msgid "Events Archive"
+msgstr "Tapahtuma-arkisto"
+
+#: ../archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "Kirjoittja: %s"
+
+#: ../archive.php:32
+#, php-format
+msgid "Day: %s"
+msgstr "Päivä: %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Month: %s"
+msgstr "Kuukausi: %s"
+
+#: ../archive.php:38
+#, php-format
+msgid "Year: %s"
+msgstr "Vuosi: %s"
+
+#: ../archive.php:41
+msgid "Asides"
+msgstr "Sivuosiot"
+
+#: ../archive.php:44 ../inc/post-type-gallery.php:17
+#: ../inc/post-type-gallery.php:28
+msgid "Galleries"
+msgstr "Galleriat"
+
+#: ../archive.php:47 ../inc/post-type-gallery.php:61
+msgid "Images"
+msgstr "Kuvat"
+
+#: ../archive.php:50
+msgid "Videos"
+msgstr "Videot"
+
+#: ../archive.php:53
+msgid "Quotes"
+msgstr "Lainaukset"
+
+#: ../archive.php:56
+msgid "Links"
+msgstr "Linkit"
+
+#: ../archive.php:59
+msgid "Statuses"
+msgstr "Statukset"
+
+#: ../archive.php:62
+msgid "Audios"
+msgstr "Audiot"
+
+#: ../archive.php:65
+msgid "Chats"
+msgstr "Keskustelut"
+
+#: ../archive.php:68 ../sidebar.php:17
+msgid "Archives"
+msgstr "Arkisto"
+
+#: ../comments.php:37 ../comments.php:57
+msgid "Comment navigation"
+msgstr "Kommentoinnin navigaatio"
+
+#: ../comments.php:38 ../comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: ../comments.php:39 ../comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: ../comments.php:69
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu"
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: ../content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Oletko valmiina julkaisemaan ensimmäisen julkaisusi? <a href=\"%1$s\">Ei "
+"muutaku hommiin!</a>."
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Pahoittelut, mikään ei vastannut hakuasi. Kokeile uudestaan joillan eri "
+"sanoilla."
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Näyttää siltä ettemme löytäneet mitä etsit. Kokeileppa hakea uuestaan."
+
+#: ../content-page.php:15 ../content-pr_event.php:30 ../content-single.php:23
+#: ../content.php:30
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: ../content-page.php:22
+msgid "Edit post"
+msgstr "Muokkaa postausta"
+
+#: ../content-pr_event.php:21
+msgid "&laquo; Back to Calendar"
+msgstr "&laquo; Takaisin kalenteriin"
+
+#: ../content-pr_event.php:71 ../inc/edgeone_functions.php:314
+#: ../inc/template-tags.php:78 ../inc/template-tags.php:97
+msgid "Edit"
+msgstr "Editoi"
+
+#: ../content.php:27
+msgid "<span class=\"meta-nav\">&raquo;</span> Read more"
+msgstr "<span class=\"meta-nav\">&raquo;</span> Lue lisää"
+
+#: ../footer.php:22
+#, php-format
+msgid "&copy %1$s Edgeone"
+msgstr "&copy %1$s Oulun ylioppilaskamerat Ry"
+
+#: ../functions.php:55
+msgid "Primary Menu"
+msgstr "Päänavigaatio"
+
+#: ../functions.php:56
+msgid "Footer Menu"
+msgstr "Alaosion valikko"
+
+#: ../functions.php:102
+msgid "News Sidebar"
+msgstr "Uutisten sivuvalikko"
+
+#: ../functions.php:111
+msgid "Page Sidebar"
+msgstr "Sivujen sivuosio"
+
+#: ../functions.php:120
+msgid "Events sidebar"
+msgstr "Tapahtumien sivuosio"
+
+#: ../functions.php:129
+msgid "Front page first half"
+msgstr "Etusivun eka puolisko"
+
+#: ../functions.php:137
+msgid "Front page second half"
+msgstr "Etusivun toka puolisko"
+
+#: ../header_page.php:19
+msgid "Photo by:"
+msgstr "Kuvaaja:"
+
+#: ../header_page.php:19
+msgid "Yokamerat Flickr Group"
+msgstr "Yokamerat Flickr"
+
+#: ../index.php:19 ../page-index.php:25 ../single.php:13
+#: ../inc/edgeone_functions.php:218 ../inc/edgeone_functions.php:227
+#: ../inc/edgeone_functions.php:231 ../inc/edgeone_functions.php:237
+#: ../inc/edgeone_functions.php:238 ../inc/edgeone_functions.php:240
+#: ../inc/edgeone_functions.php:241
+msgid "News"
+msgstr "Uutiset"
+
+#: ../page-event-index.php:14
+msgid "Events Calendar"
+msgstr "Tapahtumakalenteri"
+
+#: ../page-event-index.php:32
+msgid "&laquo; Past events"
+msgstr "&laquo; Menneet tapahtumat"
+
+#: ../page-index.php:15
+msgid "Incoming events"
+msgstr "Tulevat tapahtumat"
+
+#: ../page-index.php:20
+msgid "More events &raquo;"
+msgstr "Lisää tapahtumia &raquo;"
+
+#: ../page-index.php:27
+msgid "More news &raquo;"
+msgstr "Lisää uutisia &raquo;"
+
+#: ../page-index.php:44
+msgid "Yokamerat on facebook"
+msgstr "Yokamerat on Facebook"
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Haun \"%s\" tulokset"
+
+#: ../sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#: ../single-pr_event.php:26
+msgid "Next events"
+msgstr "Seuraavat tapahtumat"
+
+#: ../inc/edgeone_functions.php:219 ../inc/edgeone_functions.php:228
+#: ../inc/edgeone_functions.php:229
+msgid "Add News"
+msgstr "Lisää uutinen"
+
+#: ../inc/edgeone_functions.php:220
+msgid "News Tags"
+msgstr "Uutisten tagit"
+
+#: ../inc/edgeone_functions.php:230
+msgid "Edit News"
+msgstr "Muokkaa uutista"
+
+#: ../inc/edgeone_functions.php:232
+msgid "View News"
+msgstr "Katso uutisia"
+
+#: ../inc/edgeone_functions.php:233
+msgid "Search News"
+msgstr "Etsi uutisia"
+
+#: ../inc/edgeone_functions.php:234
+msgid "No News found"
+msgstr "Ei uutisia"
+
+#: ../inc/edgeone_functions.php:235
+msgid "No News found in Trash"
+msgstr "Ei uutisia roskissa"
+
+#: ../inc/edgeone_functions.php:236 ../inc/edgeone_functions.php:239
+msgid "All News"
+msgstr "Kaikki uutiset"
+
+#: ../inc/edgeone_functions.php:283 ../inc/edgeone_functions.php:286
+msgid ", "
+msgstr ","
+
+#: ../inc/edgeone_functions.php:291
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Tällä kirjoituksella on tagit %2$s. Lisää <a href=\"%3$s\" rel=\"bookmark\"> "
+"kirjanmerkki</a>."
+
+#: ../inc/edgeone_functions.php:293
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Lisää <a href=\"%3$s\" rel=\"bookmark\"> kirjanmerkiksi</a>."
+
+#: ../inc/edgeone_functions.php:299
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Tämä kirjoitus on julkaistu %1$s tageilla %2$s. Lisää <a href=\"%3$s\" rel="
+"\"bookmark\">kirjanmerkiksi</a>."
+
+#: ../inc/edgeone_functions.php:301
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Tämä kirjoitus julkaistiin %1$s. Lisää <a href=\"%3$s\" rel=\"bookmark"
+"\">kirjanmerkiksi</a>."
+
+#: ../inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: ../inc/post-type-gallery.php:18
+msgid "Gallery"
+msgstr "Galleria"
+
+#: ../inc/post-type-gallery.php:19
+msgid "Add Gallery"
+msgstr "Lisää galleria"
+
+#: ../inc/post-type-gallery.php:20
+msgid "Add New Gallery"
+msgstr "Lisää uusi galleria"
+
+#: ../inc/post-type-gallery.php:21
+msgid "Edit Gallery"
+msgstr "Muokkaa galleriaa"
+
+#: ../inc/post-type-gallery.php:22
+msgid "New Gallery"
+msgstr "Uusi galleria"
+
+#: ../inc/post-type-gallery.php:23
+msgid "All Galleries"
+msgstr "Kaikki Galleriat"
+
+#: ../inc/post-type-gallery.php:24
+msgid "View Gallery"
+msgstr "Katso galleriaa"
+
+#: ../inc/post-type-gallery.php:25
+msgid "Search Galleries"
+msgstr "Etsi gallerioita"
+
+#: ../inc/post-type-gallery.php:26
+msgid "No galleries found"
+msgstr "Ei gallerioita löytynyt"
+
+#: ../inc/post-type-gallery.php:27
+msgid "No galleries found in Trash"
+msgstr "Ei gallerioita roskissa"
+
+#: ../inc/post-type-gallery.php:59
+msgid "ID"
+msgstr "ID"
+
+#: ../inc/post-type-gallery.php:62 ../inc/pr-events/pr-events.php:122
+msgid "Author"
+msgstr "Kirjoittaja"
+
+#: ../inc/post-type-gallery.php:64 ../inc/pr-events/pr-events.php:92
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: ../inc/post-type-gallery.php:65
+msgid "Tags"
+msgstr "Tagit"
+
+#: ../inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Vanhemmat uutiset"
+
+#: ../inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Uudemmat uutiset <span class=\"meta-nav\">&raquo;</span>"
+
+#: ../inc/template-tags.php:53
+msgid "Post navigation"
+msgstr "Postien navigointi"
+
+#: ../inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/template-tags.php:88
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">sanoo:</span>"
+
+#: ../inc/template-tags.php:101
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa moderointia"
+
+#: ../inc/pr-events/pr-event-meta.php:41
+msgid "Just fill the ones needed."
+msgstr "Täytä vaan tarvittavat."
+
+#: ../inc/pr-events/pr-event-meta.php:46
+msgid "Start date (dd.mm.yyyy)"
+msgstr "Aloituspäivä (dd.mm.yyyy)"
+
+#: ../inc/pr-events/pr-event-meta.php:51
+msgid "Start time (hh:mm)"
+msgstr "Aloitusaika (hh:mm)"
+
+#: ../inc/pr-events/pr-event-meta.php:56
+msgid "End date (dd.mm.yyyy)"
+msgstr "Lopetuspäivä (dd.mm.yyyy)"
+
+#: ../inc/pr-events/pr-event-meta.php:61
+msgid "End time (hh:mm)"
+msgstr "Lopetus aika (hh:mm)"
+
+#: ../inc/pr-events/pr-event-meta.php:64
+msgid "Kurssille"
+msgstr "Kurssille"
+
+#: ../inc/pr-events/pr-event-meta.php:69
+msgid "Venue"
+msgstr "Sijainti"
+
+#: ../inc/pr-events/pr-event-meta.php:74
+msgid "Google Maps Link"
+msgstr "Google Maps -linkki"
+
+#: ../inc/pr-events/pr-event-meta.php:79 ../inc/pr-events/pr-events.php:303
+msgid "Price"
+msgstr "Hinta"
+
+#: ../inc/pr-events/pr-event-meta.php:84
+msgid "Prerequirities"
+msgstr "Esitiedot"
+
+#: ../inc/pr-events/pr-event-meta.php:89
+msgid "Equipment"
+msgstr "Välineet"
+
+#: ../inc/pr-events/pr-event-meta.php:94 ../inc/pr-events/pr-events.php:323
+msgid "Group size"
+msgstr "Ryhmäkoko"
+
+#: ../inc/pr-events/pr-event-meta.php:99 ../inc/pr-events/pr-events.php:318
+msgid "Teacher"
+msgstr "Vetäjä"
+
+#: ../inc/pr-events/pr-event-meta.php:104 ../inc/pr-events/pr-events.php:328
+msgid "Apply information"
+msgstr "Ilmoittautumistiedot"
+
+#: ../inc/pr-events/pr-events.php:15 ../inc/pr-events/pr-events.php:27
+msgid "Events"
+msgstr "Tapahtumat"
+
+#: ../inc/pr-events/pr-events.php:16
+msgid "Event"
+msgstr "Tapahtuma"
+
+#: ../inc/pr-events/pr-events.php:17
+msgid "Add Event"
+msgstr "Lisää tapahtuma"
+
+#: ../inc/pr-events/pr-events.php:18
+msgid "Add New Event"
+msgstr "Lisää uusi tapahtuma"
+
+#: ../inc/pr-events/pr-events.php:19
+msgid "Edit Event"
+msgstr "Muokkaa tapahtumaa"
+
+#: ../inc/pr-events/pr-events.php:20
+msgid "New Event"
+msgstr "Uusi tapahtuma"
+
+#: ../inc/pr-events/pr-events.php:21
+msgid "All Events"
+msgstr "Kaikki tapahtumat"
+
+#: ../inc/pr-events/pr-events.php:22
+msgid "View Event"
+msgstr "Katso tapahtumaa"
+
+#: ../inc/pr-events/pr-events.php:23
+msgid "Search Events"
+msgstr "Etsi tapahtumia"
+
+#: ../inc/pr-events/pr-events.php:24
+msgid "No Events found"
+msgstr "Ei löytynyt tapahtumia"
+
+#: ../inc/pr-events/pr-events.php:25
+msgid "No Events found in Trash"
+msgstr "Ei tapahtumia roskissa"
+
+#: ../inc/pr-events/pr-events.php:26 ../inc/pr-feature/pr-feature.php:23
+msgid "parent item colon"
+msgstr "paernt item colon"
+
+#: ../inc/pr-events/pr-events.php:84
+msgid "Search Categories"
+msgstr "Etsi kategorioita"
+
+#: ../inc/pr-events/pr-events.php:85
+msgid "All Categories"
+msgstr "Kaikki kategoriat"
+
+#: ../inc/pr-events/pr-events.php:86
+msgid "Parent Category"
+msgstr "Yläkategoria"
+
+#: ../inc/pr-events/pr-events.php:87
+msgid "Parent Category:"
+msgstr "Yläkategoria:"
+
+#: ../inc/pr-events/pr-events.php:88
+msgid "Edit Category"
+msgstr "Muokkaa kategoriaa"
+
+#: ../inc/pr-events/pr-events.php:89
+msgid "Update Category"
+msgstr "Päivitä kategoria"
+
+#: ../inc/pr-events/pr-events.php:90
+msgid "Add New Category"
+msgstr "Lisää uusi kategoria"
+
+#: ../inc/pr-events/pr-events.php:91
+msgid "New Category Name"
+msgstr "Uusi kategorian nimi"
+
+#: ../inc/pr-events/pr-events.php:121
+msgid "Category"
+msgstr "Kategoria"
+
+#: ../inc/pr-events/pr-events.php:123 ../inc/pr-feature/pr-feature.php:101
+msgid "Order"
+msgstr "Järjestys"
+
+#: ../inc/pr-events/pr-events.php:135
+msgid "--"
+msgstr "--"
+
+#: ../inc/pr-events/pr-events.php:259
+msgid ""
+"That's a shame, no events at all. We might be having a holiday, hope you "
+"too.."
+msgstr ""
+"Ompa harmi, ei yhtään tapahtumaa. Taidamme olla lomalla, toivottavasti "
+"sinäkin!"
+
+#: ../inc/pr-events/pr-events.php:279
+#, php-format
+msgid "from %2$s to %4$s"
+msgstr "%2$s - %4$s"
+
+#: ../inc/pr-events/pr-events.php:298 ../inc/pr-feature/pr-feature.php:100
+msgid "Location"
+msgstr "Sijainti"
+
+#: ../inc/pr-events/pr-events.php:308
+msgid "Pre-requirements"
+msgstr "Esitiedot"
+
+#: ../inc/pr-events/pr-events.php:313
+msgid "Needed equipment"
+msgstr "Tarvittavat välineet"
+
+#: ../inc/pr-feature/pr-feature-meta.php:22
+msgid "Feature links to: "
+msgstr "Nosto linkittää:"
+
+#: ../inc/pr-feature/pr-feature-meta.php:29
+msgid "Importance: "
+msgstr "Tärkeys:"
+
+#: ../inc/pr-feature/pr-feature-meta.php:40
+msgid "Importance 1 items are shown first in the site"
+msgstr "Tärkeys järjestyksessä 1 näytetään ensimmäisenä"
+
+#: ../inc/pr-feature/pr-feature.php:12 ../inc/pr-feature/pr-feature.php:24
+msgid "Features"
+msgstr "Nostot"
+
+#: ../inc/pr-feature/pr-feature.php:13
+msgid "Feature"
+msgstr "Nosto"
+
+#: ../inc/pr-feature/pr-feature.php:14
+msgid "Add Feature"
+msgstr "Lisää nosto"
+
+#: ../inc/pr-feature/pr-feature.php:15
+msgid "Add New Feature"
+msgstr "Lisää uusi nosto"
+
+#: ../inc/pr-feature/pr-feature.php:16
+msgid "Edit Feature"
+msgstr "Muokkaa nostoa"
+
+#: ../inc/pr-feature/pr-feature.php:17
+msgid "New Feature"
+msgstr "Uusi nosto"
+
+#: ../inc/pr-feature/pr-feature.php:18
+msgid "All Features"
+msgstr "Kaikki nostot"
+
+#: ../inc/pr-feature/pr-feature.php:19
+msgid "View Feature"
+msgstr "Katso nostoa"
+
+#: ../inc/pr-feature/pr-feature.php:20
+msgid "Search Features"
+msgstr "Etsi nostoja"
+
+#: ../inc/pr-feature/pr-feature.php:21
+msgid "No Features found"
+msgstr "Ei löytynyt nostoja"
+
+#: ../inc/pr-feature/pr-feature.php:22
+msgid "No Features found in Trash"
+msgstr "Ei nostoja roskissa"
+
+#: ../inc/pr-feature/pr-feature.php:34
+msgid "features"
+msgstr "nostot"
+
+#: ../inc/pr-feature/pr-feature.php:64
+msgid "Search Locations"
+msgstr "Etsi sijainteja"
+
+#: ../inc/pr-feature/pr-feature.php:65
+msgid "All Locations"
+msgstr "Kaikki sijainnit"
+
+#: ../inc/pr-feature/pr-feature.php:66
+msgid "Parent Location"
+msgstr "Yläsijainti"
+
+#: ../inc/pr-feature/pr-feature.php:67
+msgid "Parent Location:"
+msgstr "Yläsijainti:"
+
+#: ../inc/pr-feature/pr-feature.php:68
+msgid "Edit Location"
+msgstr "Muokkaa sijiantia"
+
+#: ../inc/pr-feature/pr-feature.php:69
+msgid "Update Location"
+msgstr "Päivitä sijainti"
+
+#: ../inc/pr-feature/pr-feature.php:70
+msgid "Add New Location"
+msgstr "Lisää uusi sijainti"
+
+#: ../inc/pr-feature/pr-feature.php:71
+msgid "New Location Name"
+msgstr "Uusi sijainnin nimi"
+
+#: ../inc/pr-feature/pr-feature.php:72
+msgid "Locations"
+msgstr "Sijainnit"
+
+#: ../inc/pr-feature/pr-feature.php:113
+msgid "No locations assigned"
+msgstr "Ei asetettuja sijainteja"
+
+#: ../inc/pr-feature/pr-feature.php:125
+msgid "Order not set"
+msgstr "Järjestystä ei asetettu"
+
+#: ../inc/widgets/edgeone_fabo.php:19
+msgid "Facebook Widget"
+msgstr "Facebook vimpain"
+
+#: ../inc/widgets/edgeone_fabo.php:22
+msgid "Fabo widget of edgeone"
+msgstr "Edgeonen FB vimpain"
+
+#: ../inc/widgets/edgeone_fabo.php:35
+msgid "Hello, World!"
+msgstr "Heippa maailma!"
+
+#: ../inc/widgets/edgeone_fabo.php:45
+msgid "New title"
+msgstr "Uusi otsikko"
+
+#: ../inc/widgets/edgeone_fabo.php:50
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: ../partials/nav-bs-fixed.php:15 ../partials/nav-bs-normal.php:14
+msgid "Toggle navigation"
+msgstr "Navigaation togglaaminen nääs"
+
+#~ msgid "events"
+#~ msgstr "tapahtumat"

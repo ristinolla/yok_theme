@@ -1,0 +1,1685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"edge",
+				"edgeone_googleanalytics"
+			],
+			[
+				"re",
+				"resize_facebook_box"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"orde",
+				"ordervalue"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"resi",
+				"resize_collaborative"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fli",
+				"flickerAPI"
+			],
+			[
+				"flick",
+				"flickerAPI"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"json",
+				"jsoncallback"
+			],
+			[
+				"flic",
+				"flickerAPI"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"photo",
+				"photoHTML"
+			],
+			[
+				"ap",
+				"api_key"
+			],
+			[
+				"edgeon",
+				"edgeone_widget"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"date",
+				"dateformat"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"text",
+				"textcolor"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ra",
+				"raquo"
+			],
+			[
+				"la",
+				"laquo"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"today",
+				"today3am"
+			],
+			[
+				"get_te",
+				"get_template_directory"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"list-",
+				"list-c	list-style-type: circle;"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"backr",
+				"background-position"
+			],
+			[
+				"defa",
+				"default"
+			],
+			[
+				"text-t",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"time",
+				"time_string"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bas",
+				"contrast(@color1, black, white, [@threshold: 43%])"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"col-",
+				"col-sm-9"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"pr_fe",
+				"pr_feature_order"
+			],
+			[
+				"dum",
+				"var_dump"
+			],
+			[
+				"tax",
+				"taxonomy_terms"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"esc_",
+				"esc_html_e"
+			],
+			[
+				"after",
+				"after_list"
+			],
+			[
+				"af",
+				"after_list"
+			],
+			[
+				"prin",
+				"printf"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"col-x",
+				"col-xs-6"
+			],
+			[
+				"order",
+				"orderby"
+			],
+			[
+				"be",
+				"before_list"
+			],
+			[
+				"if",
+				"if?	$… = ( … ) ? … : …"
+			],
+			[
+				"pr_e",
+				"pr_event_list_item"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"scri",
+				"scriptcam"
+			],
+			[
+				"ene",
+				"enemyScore"
+			],
+			[
+				"en",
+				"enemyScore"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"data",
+				"dataBody"
+			],
+			[
+				"chan",
+				"changeb2Screen"
+			],
+			[
+				"opponen",
+				"opponentReady"
+			],
+			[
+				"target",
+				"target_id"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"remove",
+				"remove"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"change",
+				"changeb3Screen"
+			],
+			[
+				"d",
+				"dude"
+			],
+			[
+				"nor",
+				"no-repeat"
+			],
+			[
+				"ep",
+				"empty"
+			],
+			[
+				"rec",
+				"recent-orders"
+			],
+			[
+				"rece",
+				"recent-orders"
+			],
+			[
+				"G",
+				"GetTotal"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"m",
+				"me	module.exports"
+			],
+			[
+				"mod",
+				"module	JS module pattern"
+			],
+			[
+				"sin",
+				"singleton	JS singleton pattern"
+			],
+			[
+				"parse",
+				"parseFloat"
+			],
+			[
+				"html",
+				"htmlstring"
+			],
+			[
+				"recen",
+				"recent-orders"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"Pre",
+				"preventDefault"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"eq",
+				"equally-pieces"
+			],
+			[
+				"prev",
+				"prev"
+			],
+			[
+				"bore",
+				"border-box"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"ac",
+				"acons	console"
+			],
+			[
+				"open",
+				"openModal"
+			],
+			[
+				"var",
+				"varthis	varthis"
+			],
+			[
+				"on",
+				"onevent	custom-event-handler"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"basket",
+				"basket-area"
+			],
+			[
+				"sing",
+				"single-item"
+			],
+			[
+				"de",
+				"debounce	Debounced function"
+			],
+			[
+				"this",
+				"things"
+			],
+			[
+				"modal",
+				"modal-content"
+			],
+			[
+				"image",
+				"image-wrap"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"usr",
+				"userprofile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/editor-styles.less",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 7195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page.php",
+			"settings":
+			{
+				"buffer_size": 911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/main.less",
+			"settings":
+			{
+				"buffer_size": 10248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content-pr_event.php",
+			"settings":
+			{
+				"buffer_size": 2494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/edgeone_functions.php",
+			"settings":
+			{
+				"buffer_size": 10690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/edgeone_shortcodes.php",
+			"settings":
+			{
+				"buffer_size": 2746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header_page.php",
+			"settings":
+			{
+				"buffer_size": 959,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-index.php",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/nav-bs-normal.php",
+			"settings":
+			{
+				"buffer_size": 1051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/nav-bs-fixed.php",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 4451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/yokamerat/wp-config.php",
+			"settings":
+			{
+				"buffer_size": 3354,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"setsyntphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"setsyntless",
+				"Set Syntax: LESS"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyntacss",
+				"Set Syntax: CSS"
+			],
+			[
+				"set syntacss",
+				"Set Syntax: CSS"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"set syntaxphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"setsyntcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"setsycss",
+				"Set Syntax: CSS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: wp_tempecho"
+			],
+			[
+				"setsynt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"remot",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"rem",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"re",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remt",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"setja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"setu",
+				"SFTP: Setup Server…"
+			],
+			[
+				"ssp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sftp ser",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ssyht",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsynthtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
+			[
+				"rmote",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sfto",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftre",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfr",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftbr",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftremo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sfrem",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sfre",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftpb",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftped",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sftpsetu",
+				"SFTP: Setup Server…"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: varthis"
+			],
+			[
+				"ss",
+				"Set Syntax: JSON"
+			],
+			[
+				"edit ser",
+				"SFTP: Edit Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pertturistimella/Dropbox/kaikkisähköpostit.txt",
+		"/Users/pertturistimella/Developer/angulartutorial/angular-phonecat/package.json",
+		"/Users/pertturistimella/Developer/Node JS/example.js",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/less/mixins.less",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-events/pr-events.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/less/main.less",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/less/variables.less",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/style.css",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/partials/nav-bs-fixed.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/header.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/edgeone_functions.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/index.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page-event-index.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page-empty.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/js/scripts.js",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page-index.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/footer.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/less/edgeone.less",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/partials/nav-bs-normal.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/single.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/single-pr_event.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/edgeone_shortcodes.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/404.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/head.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/functions.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/widgets/edgeone_fabo.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/post-type-gallery.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/archive-pr_event.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-feature/pr-feature-meta.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-feature/pr-feature.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-events/pr-event-meta.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/sidebar.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/img/yok/yokamerat_logo_whitetext_vaaka.png",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/content-pr_event.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/archive.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/search.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-events/pr-event-templates.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/content.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/content-single.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/template-tags.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/comments.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/content-page.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/extras.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/partials/section-collaboration.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/partials/section-features-4.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/pr-feature/pr-feature-templates.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/taxonomy-blank.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page_movies.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/events/pr-event-meta.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/events/pr-event-templates.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/events/pr-events.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/content-event.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/bs_incs/bs_incs.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/partials/nav-bsnormal.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/jetpack.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/custom-header.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/customizer.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/bs_incs/wp_bootstrap_navwalker.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/img/yok/yokamerat_logo_mustavaaka.png",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/js/skip-link-focus-fix.js",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/wp-bootstrap-navwalker/wp_bootstrap_navwalker.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/bootstrapped/bootrstrapped.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/page_underscores.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/boostrapped/wp_bootsrap_navwalker.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/archive-movies.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/events/pr_events.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/post-type-event.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/inc/post-type-blank.php",
+		"/Applications/MAMP/htdocs/perttu/wp-content/themes/edgeone/css/bootstrap.css",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/User/wordpress.sublime-snippet",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/User/wp_tempecho.sublime-snippet",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1388412268/souvvi/u31148/public_html/blog/wp-content/themes/souvvi_2013/functions.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1388412185/souvvi/u31148/public_html/blog/wp-content/themes/souvvi_2013/functions/user-related.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1388412244/souvvi/u31148/public_html/blog/wp-content/themes/souvvi_2013/functions/meta-boxes.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387189903/ucfred/var/www/html/ucfred/multiplayer/head.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387190960/ucfred/var/www/html/ucfred/multiplayer/setup.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387197336/ucfred/var/www/html/ucfred/splitscreen/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387191995/ucfred/var/www/html/ucfred/multiplayer/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387193441/ucfred/var/www/html/ucfred/multiplayer/js/globals.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387191965/ucfred/var/www/html/ucfred/multiplayer/js/screen.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387189883/ucfred/var/www/html/ucfred/multiplayer/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387191193/ucfred/var/www/html/ucfred/common/js/timer.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387272998/ucfred/var/www/html/ucfred/common/js/sp.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387189784/ucfred/var/www/html/ucfred/common/css/style.css",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387197307/ucfred/var/www/html/ucfred/splitscreen/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387193452/ucfred/var/www/html/ucfred/multiplayer/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387192037/ucfred/var/www/html/ucfred/multiplayer/js/communicator.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387189911/ucfred/var/www/html/ucfred/splitscreen/head.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387125608/ucfred/var/www/html/ucfred/splitscreen/js/communicator.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387125850/ucfred/var/www/html/ucfred/splitscreen/setup.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387124859/ucfred/var/www/html/ucfred/splitscreen/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1387124548/ucfred/var/www/html/ucfred/splitscreen/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386684004/ucfred/var/www/html/ucfred/multiplayer/js/screen.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386683086/ucfred/var/www/html/ucfred/splitscreen/js/camera.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386682917/ucfred/var/www/html/ucfred/splitscreen/setup.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386682642/ucfred/var/www/html/ucfred/splitscreen/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386683448/ucfred/var/www/html/ucfred/common/database.php",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386681994/ucfred/var/www/html/ucfred/splitscreen/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386683469/ucfred/var/www/html/ucfred/common/pf_stuff.php",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386683983/ucfred/var/www/html/ucfred/splitscreen/js/screen.js",
+		"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/User/htmlcomment.sublime-snippet",
+		"/Users/pertturistimella/Library/Caches/Coda 2/E37D02F0-BDFE-4021-9D45-B2DD1B549589/b3.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/2D10420B-9D77-4C46-8670-89106DA1379D/b2.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/D82E1110-B929-43C9-B3A9-34019223AA74/b1.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/B2FE349D-63E5-4B85-93F7-AA7CDBFB9618/b3.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/4F77CD54-AA61-47DB-B1AE-EAEAD320BF45/b2.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/BD484AE7-6785-4202-AE7F-70EFD5C03FAB/b1.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/1568576D-BE2E-4EE3-A3C1-6F2853B3E442/game.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/E118E49A-E690-4593-9B85-C76A8EE302E6/head.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/E26B1332-C583-4F1E-9C27-E52E84A32C9E/index.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/B7F2B332-26E5-4661-AC74-1B9744619AC8/game.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/60268EB5-CFE4-47BA-A6D3-5DBCC6E5A7D4/head.php",
+		"/Users/pertturistimella/Library/Caches/Coda 2/86D4F61F-CBBF-4955-A65A-089CE4E836DA/index.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386602440/ucfred/var/www/html/ucfred/splitscreen/setup.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386603215/ucfred/var/www/html/ucfred/common/js/camera.js",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386679729/ucfred/var/www/html/ucfred/multiplayer/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680247/ucfred/var/www/html/ucfred/splitscreen/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680154/ucfred/var/www/html/ucfred/splitscreen/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680665/ucfred/var/www/html/ucfred/multiplayer/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680651/ucfred/var/www/html/ucfred/multiplayer/b2.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680643/ucfred/var/www/html/ucfred/splitscreen/b3.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680628/ucfred/var/www/html/ucfred/splitscreen/b2.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386603516/ucfred/var/www/html/ucfred/multiplayer/b1.php",
+		"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386680133/ucfred/var/www/html/ucfred/multiplayer/b3.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"pr_event",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"entry",
+			"nav",
+			"collapse",
+			"navbar-toggle",
+			"r ",
+			"hentry",
+			"post",
+			"entry-date",
+			"perttu",
+			"edgeone",
+			"perttu",
+			"footer",
+			"collab",
+			"footer",
+			"navbar-nav",
+			"box",
+			"shadow",
+			"box-sha",
+			"lighten",
+			"entry",
+			"side-nav",
+			"faf",
+			"<div class=\"container\">\n		<div class=\"row\">\n			<main role=\"main\" class=\"col-xs-12 \">\n				<?php \n				$args = array(\n						'item_class' => \"col-xs-4 event-item\"\n				);\n				pr_event_list($args); \n				?>\n				\n			</main>\n			<div class=\"col-xs-12\">\n				<?php \n				$args = array(\n						'item_class' => \"col-xs-4 event-item\"\n				);\n				pr_event_list($args); \n				?>\n			</div>\n		</div>\n	</div>",
+			"event",
+			"postnav",
+			"post",
+			"transform",
+			"border-radius",
+			"transition",
+			"feature",
+			"Category",
+			"Categorys",
+			"Location",
+			"groupsize",
+			"Teacher",
+			"teacher",
+			"equipment",
+			"prereq",
+			"Price",
+			"price",
+			"venue",
+			"div",
+			"'Add News'",
+			"edgeone",
+			"event",
+			"perttu",
+			"event",
+			"printf",
+			"Project",
+			"navigation",
+			"Project",
+			"\"></",
+			"div",
+			"before",
+			"__('",
+			"yokam_",
+			"yokam_meta",
+			"Galleries",
+			"Gallery",
+			"books",
+			"Book",
+			"time",
+			"btn-lg",
+			"screen",
+			"screent",
+			"screen",
+			"script",
+			"punchcamer",
+			"PunchCam",
+			"alt+r",
+			"ctrl+r",
+			"ctrl+t",
+			"comment",
+			"punchcame",
+			"scriptcam",
+			"img",
+			"punchcame",
+			"punchcam",
+			"localhost",
+			"	   		if(typeof message.data.screen != \"undefined\"){\n	   			Screen.changeB2(message);\n	   			break;\n		  	}\n		  	if(typeof message.data.score != \"undefined\"){\n				Screen.myScoreUpdate(message.data.score, message.data.combo, message.data.iframe);\n				break;\n		  	}",
+			"camera",
+			"Messaging.initInterval",
+			"selectPlayers",
+			"select-multi-player",
+			"\"log",
+			"multiplayer",
+			"ultiplayerScoreUpdater",
+			"multiplayerScore",
+			"enemy",
+			"enempyPh",
+			"screen.mys",
+			"myscore",
+			"myscor",
+			"initSla",
+			"opponent",
+			"mas",
+			"5px",
+			"unsorted-item ",
+			"unsorted",
+			"stack",
+			"unsorted-item",
+			"blue",
+			"split-equal-section",
+			"two-c",
+			"column",
+			"col",
+			"two-col",
+			"Sans",
+			"document",
+			"container",
+			"parseInt",
+			"save_re",
+			"get_user",
+			"parsed_data",
+			"apartment",
+			"table-cell",
+			"getUserH",
+			"todo 3",
+			"todo 2",
+			"messages",
+			"handleAdd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"edgeone",
+			"perttu",
+			"feature",
+			"edgeone",
+			"Feature",
+			"nosto",
+			"_e('",
+			"pr_event_",
+			"pr_event",
+			"rendered_data"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/editor-styles.less",
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 7195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "page.php",
+					"settings":
+					{
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/main.less",
+					"settings":
+					{
+						"buffer_size": 10248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2037,
+								1847
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1769.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "content-pr_event.php",
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2125,
+								2125
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/edgeone_functions.php",
+					"settings":
+					{
+						"buffer_size": 10690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9295,
+								9295
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4111.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "inc/edgeone_shortcodes.php",
+					"settings":
+					{
+						"buffer_size": 2746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2338,
+								2338
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "header_page.php",
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "page-index.php",
+					"settings":
+					{
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1393,
+								1393
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 7.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "partials/nav-bs-normal.php",
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "partials/nav-bs-fixed.php",
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 4451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Applications/MAMP/htdocs/yokamerat/wp-config.php",
+					"settings":
+					{
+						"buffer_size": 3354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								868
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 77.0
+	},
+	"output.sftp":
+	{
+		"height": 65.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"camr",
+				"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1386683086/ucfred/var/www/html/ucfred/splitscreen/js/camera.js"
+			],
+			[
+				"comm",
+				"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1385913573/pertturistimella/public_html/dev/ubi/js/communicator.js"
+			],
+			[
+				"scre",
+				"/var/folders/fk/w3g5kbt948zcc2krx8l2mb4w0000gn/T/sublime-sftp-browse-1385917391/pertturistimella/public_html/dev/ubi/js/screen.js"
+			],
+			[
+				"css",
+				"/Applications/MAMP/htdocs/hci_git/css/main.css"
+			],
+			[
+				"js",
+				"/Applications/MAMP/htdocs/hci_git/js/main.js"
+			],
+			[
+				"",
+				"/Applications/MAMP/htdocs/hci_git/index.html"
+			],
+			[
+				"in",
+				"/Applications/MAMP/htdocs/hci_git/index.html"
+			],
+			[
+				"loa",
+				"/Applications/MAMP/htdocs/hci_git/js/main.js"
+			],
+			[
+				"snip",
+				"/Users/pertturistimella/Library/Application Support/Sublime Text 2/Packages/JavaScript/console.sublime-snippet"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true
+}
