@@ -7,7 +7,7 @@
  * @package edgeone
  */
 ?>
-
+</div>
 <div class="dark">
 	<footer id="main-footer" class="site-footer container" role="contentinfo">
 		<div class="row">

@@ -33,7 +33,7 @@
 
 </head>
 <body <?php body_class(); ?>>
-
+<div class="footer-push">
 <?php do_action( 'before' ); ?>
 
 <?php require get_template_directory() . "/header_page.php"; ?>
