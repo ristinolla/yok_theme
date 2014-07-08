@@ -52,7 +52,14 @@
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
 						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-					</span></a>
+					</span>
+				</a>
+				<a href="https://www.flickr.com/groups/yokamerat/" title="Yokamerat on Flickr" style="color: #ff0084 ;">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
 			</div>
 		</div>
 
