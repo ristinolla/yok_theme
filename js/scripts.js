@@ -132,7 +132,7 @@ jQuery(document).ready(function ($) {
 	function get_photo_content(id) {
 		// body...
 		var dfd = new jQuery.Deferred();
-		var flickerAPI = "http://api.flickr.com/services/rest/?";
+		var flickerAPI = "https://api.flickr.com/services/rest/?";
 		flickerAPI = flickerAPI + "method=flickr.photos.getInfo";
 		flickerAPI = flickerAPI + "&api_key=bb2825b85ad73148147651fb47e92cab"
 		flickerAPI = flickerAPI + "&photo_id=" + id;
@@ -147,7 +147,7 @@ jQuery(document).ready(function ($) {
 
 	//FLICKR
 	function flickr_photos() {
-		var flickerAPI = "http://api.flickr.com/services/rest/?method=flickr.groups.pools.getPhotos&nojsoncallback=1";
+		var flickerAPI = "https://api.flickr.com/services/rest/?method=flickr.groups.pools.getPhotos&nojsoncallback=1";
 		flickerAPI = flickerAPI + "&api_key=bb2825b85ad73148147651fb47e92cab";
 		flickerAPI = flickerAPI + "&group_id=1586384@N25";
 		flickerAPI = flickerAPI + "&format=json";
@@ -158,7 +158,7 @@ jQuery(document).ready(function ($) {
 			var rand = Math.floor(Math.random()*100%99),
 				$bigbanner = $('#big-banner');
 			photo = data.photos.photo[rand];
-			var photostring = 'http://farm' + photo.farm + 
+			var photostring = 'https://farm' + photo.farm + 
 							  '.staticflickr.com/' + photo.server +
 							  '/' + photo.id + '_' + photo.secret + '_b.jpg';
 			$bigbanner.css('background-image', 'url(' + photostring + ')');
