@@ -175,7 +175,8 @@ function pr_event_list($args)
  		'offset' => 0,
  		'paged' => false,
  		'past' => false,
- 		'posts_per_page' => 4		
+ 		'posts_per_page' => 4,
+ 		'item_class_one' => "only-one event-item"
 	);
 	$today3am = strtotime('today 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
 
@@ -183,6 +184,7 @@ function pr_event_list($args)
 
 	$args = wp_parse_args( $args, $defaults );
 	extract( $args, EXTR_SKIP );
+	
 	wp_reset_postdata();
 
 	if($order == 'ASC'){
@@ -195,7 +197,6 @@ function pr_event_list($args)
 
 	$queryargs = array( 
 			'post_type' => 'pr_event',
-			'post_count' => $length,
 			'meta_key' => 'pr_event_enddate',
 			'orderby' => 'meta_value_num',
 			'order' => $ordervalue,
@@ -212,11 +213,18 @@ function pr_event_list($args)
 		);
 	$event_query = new WP_Query( $queryargs );
 
+	//echo "<h1>" . $event_query->post_count. "</h1>";
+	
+	if ( $event_query->post_count == 1 ) {
+		$item_class = $item_class_one;
+	}
+
 	if ( $event_query -> have_posts() ){
 		
 		if( isset( $before_list ) ) {
 			echo $before_list;
 		}
+		
 		while ( $event_query -> have_posts() ) : 
 			$event_query -> next_post(); 
 			$curpost = $event_query -> post;
@@ -243,7 +251,6 @@ function pr_event_list($args)
 					echo $before_item;
 				}
 
-				
 				pr_event_list_item($curpost, $item_class);
 				
 				if( isset( $after_item ) ) {

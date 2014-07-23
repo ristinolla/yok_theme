@@ -149,6 +149,7 @@ function edgeone_breadcrumb() {
 */
 function pr_short_list_posts($args){
 
+	wp_reset_postdata();
 	$defaults = array(
 		'post_type' => "post",
 		'length' => 3,
@@ -159,6 +160,7 @@ function pr_short_list_posts($args){
  		'after_before' => '</ul>',
  		'date_format' => 'j.m.Y',
  		'category_name' => "",
+ 		'posts_per_page' => 3
  	);
 	// todo, mahollisuus listata myös pr_eventtejä nopsaa desc
 	$args = wp_parse_args($args, $defaults);
@@ -166,13 +168,14 @@ function pr_short_list_posts($args){
 
 	$queryargs = array( 
 		'post_type' => $post_type,
-		'post_count' => $length,
+		'posts_per_page' => $length,
 		'order' => $order,
 		'category_name' => $category_name
 	);
+	//echo var_dump($queryargs);
 	$event_query = new WP_Query( $queryargs );
 
-	wp_reset_postdata();
+	
 
 	//loop
 	if ( $event_query -> have_posts() ): 
