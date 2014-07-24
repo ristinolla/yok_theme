@@ -369,10 +369,10 @@ function edgeone_fb_likebox(){
 function edgeone_touch_icons(){
 
 ?>
-	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/touch-icon-iphone.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/img/touch-icon-ipad.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/img/touch-icon-iphone-retina.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/img/touch-icon-ipad-retina.png">
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/assets/img/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/assets/img/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/assets/img/touch-icon-ipad-retina.png">
 
 <?php
 }
@@ -401,7 +401,7 @@ function edgeone_headmeta()
 	} 
 	?>
 	<meta property="og:title" content="<?php if(is_home()) bloginfo('name'); else bloginfo('name'); wp_title('||'); ?>">
-	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
 
 
 	<?

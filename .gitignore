@@ -1,2 +1,4 @@
 .htaccess
 /inc/plugins/
+/node_modules/
+/assets/vendor/

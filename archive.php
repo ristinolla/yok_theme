@@ -11,7 +11,7 @@ get_header(); ?>
 <div class="light">
 	<section id="primary" class="container">
 		<main id="main" class="row" role="main">
-				
+
 			<aside class="col-xs-12 col-xs-3">
 				<?php get_sidebar(); ?>
 			</aside>
@@ -103,7 +103,7 @@ get_header(); ?>
 </div>
 
 <?php if( !edgeone_device('mobile') ) {
-	echo '<div class="semidark">';	
+	echo '<div class="semidark">';
  	get_template_part('partials/section', 'features-4');
  	echo '</div>';
 }

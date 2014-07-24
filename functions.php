@@ -155,19 +155,22 @@ function edgeone_scripts() {
 	wp_enqueue_style( 'edgeone-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'opensans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300' );
 	wp_enqueue_style( 'montserrat', 'http://fonts.googleapis.com/css?family=Montserrat:700,400' );
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
 	//wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/css/bootstrap-theme.min.css' );
-	wp_enqueue_style( 'animations', get_template_directory_uri() . '/css/animations.css' );
+	wp_enqueue_style( 'animations', get_template_directory_uri() . '/assets/css/animations.css' );
 
-	wp_enqueue_style( 'edgeone-main', get_template_directory_uri() . '/css/main.css' );
+	wp_enqueue_style( 'edgeone-main', get_template_directory_uri() . '/assets/css/main.css' );
 
 
 	//Scripts
-	wp_enqueue_script( 'edgeone-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20120206', true );
-	wp_enqueue_script( 'edgeone-holder', get_template_directory_uri() . '/js/holder.js', array('jquery'), '2.3', true );
-	wp_enqueue_script( 'edgeone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array('jquery'), '20130115', true );
-	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3', true );
-	wp_enqueue_script( 'edgeone-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), false , true );
+	/*
+	wp_enqueue_script( 'edgeone-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), '20120206', true );
+	wp_enqueue_script( 'edgeone-holder', get_template_directory_uri() . '/assets/js/holder.js', array('jquery'), '2.3', true );
+	wp_enqueue_script( 'edgeone-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array('jquery'), '20130115', true );
+	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), '3', true );
+	*/
+
+	wp_enqueue_script( 'edgeone-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), false , true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
