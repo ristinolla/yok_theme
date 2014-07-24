@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 				}
 
 			} else {
-				height = 200;
+				height = 300;
 			}
 			$this.css('height', height );
 		});
@@ -78,7 +78,7 @@ jQuery(document).ready(function ($) {
 			}
 			$this.removeClass('open');
 			$(this).stop().animate({
-				'height': 200, });
+				'height': 300, });
 		} else {
 			if(!$header.hasClass('up')){
 				$("#main-header").addClass('up').removeClass('down');
