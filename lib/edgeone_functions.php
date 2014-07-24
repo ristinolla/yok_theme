@@ -16,7 +16,7 @@ function edgeone_no_content(){
 
 
 function edgeone_device($type){
-	require_once get_template_directory() . '/inc/plugins/mobile_detect/Mobile_Detect.php';
+	require_once get_template_directory() . '/vendor/mobile_detect/Mobile_Detect.php';
 	$detect = new Mobile_Detect;
 	$return = array(
 		'mobile' => $detect->isMobile(),

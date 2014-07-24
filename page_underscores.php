@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
 	<div id="primary" class="content-area">
@@ -20,7 +20,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'templates/content', 'page' ); ?>
 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template

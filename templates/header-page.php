@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php 
+<?php
 $index= false;
 if (  is_front_page() ) {
 	$index = true;
@@ -23,7 +23,7 @@ if (  is_front_page() ) {
 <header id="main-header" class=" main-header">
 	<div class="row relative">
 		<a class="text-hide logo" id="logo" href="<?php echo home_url('/'); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
-		<?php get_template_part( 'partials/nav', 'bs-normal' ); ?>
+		<?php get_template_part( 'templates/nav', 'bs-normal' ); ?>
 		<div class="">
 	</div>
 </header>

@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
 <div class="light">
@@ -33,7 +33,7 @@ get_header(); ?>
 	</div>
 </div>
 <div class="semidark">
-	<?php get_template_part('partials/section', 'features-4'); ?>
+	<?php get_template_part('templates/section', 'features-4'); ?>
 </div>
 <div class="light">
 	<div class="container hidden-xs hidden-sm">
@@ -57,7 +57,7 @@ get_header(); ?>
 			<aside class="col-xs-12">
 				<h3 class="section-title">Yhteistyössä</h3>
 				<ul class="list-inline" id="collaboration-list">
-					<?php get_template_part('partials/section', 'collaboration'); ?>
+					<?php get_template_part('templates/section', 'collaboration'); ?>
 				</ul>
 			</aside>
 		</div>

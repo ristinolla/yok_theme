@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
 <div class="light">
@@ -23,7 +23,7 @@ get_header(); ?>
 
 			<main  role="main" class="col-xs-12 col-sm-8 col-md-9 page-content">
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'templates/content', 'page' ); ?>
 
 				<?php
 				/*

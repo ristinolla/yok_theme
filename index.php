@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
 <div class="light">
@@ -37,7 +37,7 @@ get_header(); ?>
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 						 */
-						get_template_part( 'content', get_post_format() );
+						get_template_part( 'templates/content', get_post_format() );
 					?>
 
 				<?php endwhile; ?>
@@ -46,7 +46,7 @@ get_header(); ?>
 
 			<?php else : ?>
 
-				<?php get_template_part( 'content', 'none' ); ?>
+				<?php get_template_part( 'templates/content', 'none' ); ?>
 
 			<?php endif; ?>
 
@@ -56,7 +56,7 @@ get_header(); ?>
 </div>
 <?php if( !edgeone_device('mobile') ) {
 	echo '<div class="semidark">';
- 	get_template_part('partials/section', 'features-4');
+ 	get_template_part('templates/section', 'features-4');
  	echo '</div>';
 }
 ?>

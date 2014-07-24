@@ -1,5 +1,5 @@
 .htaccess
-/lib/vendor/
+/vendor/
 /node_modules/
 /assets/vendor/
 *.sublime-workspace

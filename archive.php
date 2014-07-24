@@ -90,7 +90,7 @@ get_header(); ?>
 					 * If you want to override this in a child theme, then include a file
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 					 */
-					get_template_part( 'content', get_post_format() );
+					get_template_part( 'templates/content', get_post_format() );
 				?>
 
 			<?php endwhile; ?>
@@ -99,7 +99,7 @@ get_header(); ?>
 			</div>
 		<?php else : ?>
 			<div class="col-xs-9">
-				<?php get_template_part( 'content', 'none' ); ?>
+				<?php get_template_part( 'templates/content', 'none' ); ?>
 			</div>
 		<?php endif; ?>
 		</main><!-- #main -->

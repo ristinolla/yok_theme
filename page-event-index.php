@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 <div class="light">
 	<div class="container">
@@ -40,7 +40,7 @@ get_header(); ?>
 
 <?php if( !edgeone_device('mobile') ) {
 	echo '<div class="semidark">';
- 	get_template_part('partials/section', 'features-4');
+ 	get_template_part('templates/section', 'features-4');
  	echo '</div>';
 }
 ?>

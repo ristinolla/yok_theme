@@ -7,10 +7,10 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
-<div class="light">
+<div class="light">get_template_part( 'templates/content', 'single' );
 	<div class="container">
 		<div class="row">
 			<aside class="col-xs-12 col-sm-3">
@@ -24,11 +24,9 @@ get_header(); ?>
 				<?php
 				while ( have_posts() ) : the_post();
 
-					get_template_part( 'content', 'single' );
+					get_template_part( 'templates/content', 'single' );
 
 					edgeone_post_nav();
-
-
 
 
 				endwhile; // end of the loop.
@@ -42,7 +40,7 @@ get_header(); ?>
 
 <?php if( !edgeone_device('mobile') ) {
   echo "<div class='semidark'>";
-  get_template_part('partials/section', 'features-4');
+  get_template_part('templates/section', 'features-4');
   echo "</div>";
 }
 ?>

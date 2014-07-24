@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 
 <div class="light">
@@ -28,7 +28,7 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'search' ); ?>
+				<?php get_template_part( 'templates/content', 'search' ); ?>
 
 			<?php endwhile; ?>
 
@@ -36,7 +36,7 @@ get_header(); ?>
 
 		<?php else : ?>
 
-			<?php get_template_part( 'content', 'none' ); ?>
+			<?php get_template_part( 'templates/content', 'none' ); ?>
 
 		<?php endif; ?>
 
@@ -47,7 +47,7 @@ get_header(); ?>
 
 <?php if( !edgeone_device('mobile') ) {
 	echo '<div class="semidark">';
- 	get_template_part('partials/section', 'features-4');
+ 	get_template_part('templates/section', 'features-4');
  	echo '</div>';
 }
 ?>

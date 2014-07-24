@@ -7,7 +7,9 @@
  * @package edgeone
  */
 
-require get_template_directory() . "/header.php"; ?>
+?>
+
+<?php get_template_part( 'templates/header', 'page' ); ?>
 
 <body <?php body_class('empty-page'); ?> style="background: white;">
 <?php
