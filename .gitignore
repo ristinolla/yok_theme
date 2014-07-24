@@ -2,3 +2,5 @@
 /inc/plugins/
 /node_modules/
 /assets/vendor/
+*.sublime-workspace
+*.sublime-project
