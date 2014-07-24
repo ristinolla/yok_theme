@@ -1,10 +1,10 @@
 <?php
 /**
-* 	Custom post type. 
+* 	Custom post type.
 *
-*		Include files: 
+*		Include files:
 *  			archive-___.php
-*			single-___.php 
+*			single-___.php
 *   		index-___.php
 *
 * 		If post-formats turned on then check content-types.
@@ -58,8 +58,8 @@ function add_my_post_types_to_query( $query ) {
 */
 
 ///****** COURSE META BOX
-require_once('pr-event-meta.php');
-require_once('pr-event-templates.php');
+require ('pr-event-meta.php');
+require ('pr-event-templates.php');
 
 /**
 
@@ -85,12 +85,12 @@ function pr_event_taxonomy() {
     'all_items' => __( 'All Categories','edgeone' ),
     'parent_item' => __( 'Parent Category','edgeone' ),
     'parent_item_colon' => __( 'Parent Category:','edgeone' ),
-    'edit_item' => __( 'Edit Category','edgeone' ), 
+    'edit_item' => __( 'Edit Category','edgeone' ),
     'update_item' => __( 'Update Category','edgeone' ),
     'add_new_item' => __( 'Add New Category','edgeone' ),
     'new_item_name' => __( 'New Category Name','edgeone' ),
     'menu_name' => __( 'Categories','edgeone' ),
-  ); 	
+  );
 
   register_taxonomy('event_cat',array('pr_event'), array(
     'hierarchical' => true,
@@ -107,7 +107,7 @@ function pr_event_taxonomy() {
 
 }
 
-/** 
+/**
 
 	COLUMNS
 
@@ -142,7 +142,7 @@ function manage_pr_event_columns($column_name, $post_id) {
 	    default:
 	        break;
     }
-} 
+}
 add_action('manage_pr_event_posts_custom_column', 'manage_pr_event_columns', 10, 2);
 
 
@@ -184,7 +184,7 @@ function pr_event_list($args)
 
 	$args = wp_parse_args( $args, $defaults );
 	extract( $args, EXTR_SKIP );
-	
+
 	wp_reset_postdata();
 
 	if($order == 'ASC'){
@@ -192,10 +192,10 @@ function pr_event_list($args)
 		$compare = '>=';
 	} else {
 		$ordervalue = 'DESC';
-		$compare = '<=';		
+		$compare = '<=';
 	}
 
-	$queryargs = array( 
+	$queryargs = array(
 			'post_type' => 'pr_event',
 			'meta_key' => 'pr_event_enddate',
 			'orderby' => 'meta_value_num',
@@ -214,19 +214,19 @@ function pr_event_list($args)
 	$event_query = new WP_Query( $queryargs );
 
 	//echo "<h1>" . $event_query->post_count. "</h1>";
-	
+
 	if ( $event_query->post_count == 1 ) {
 		$item_class = $item_class_one;
 	}
 
 	if ( $event_query -> have_posts() ){
-		
+
 		if( isset( $before_list ) ) {
 			echo $before_list;
 		}
-		
-		while ( $event_query -> have_posts() ) : 
-			$event_query -> next_post(); 
+
+		while ( $event_query -> have_posts() ) :
+			$event_query -> next_post();
 			$curpost = $event_query -> post;
 
 
@@ -247,12 +247,12 @@ function pr_event_list($args)
 
 			if( $pass ){
 
-				if( isset( $before_item ) ) { 
+				if( isset( $before_item ) ) {
 					echo $before_item;
 				}
 
 				pr_event_list_item($curpost, $item_class);
-				
+
 				if( isset( $after_item ) ) {
 					echo $after_item;
 				}
@@ -264,14 +264,14 @@ function pr_event_list($args)
 		}
 	} else {
 		echo '<h2 class="text-center">' . __('That\'s a shame, no events at all. We might be having a holiday, hope you too..', 'edgeone') . '</h2>';
-	}	
+	}
 	wp_reset_postdata();
 }
 
 function pr_event_metalist($post)
 {
-	echo '<div class="short-list box">'; 
-	
+	echo '<div class="short-list box">';
+
 	setlocale(LC_TIME, get_locale() );
 
 	$list_format = '<li><i class="fa-li fa %1$s fa-2x"></i> <span class="title">%2$s</span><br><span class="value">%3$s</span></li>';
@@ -290,10 +290,10 @@ function pr_event_metalist($post)
 		$dateformat = '<div class="datetime-box row"><div class="'. $luokat .'"><date class="title" date="%1$s %2$s">%1$s</date><br><time class="value" time="%2$s">%2$s</time></div><div class="'. $luokat .'"><date class="title" date="%3$s %4$s">%3$s</date><br><time class="value" time="%4$s">%4$s</time></div></div>';
 	}
 	if($dateformat != ''){
-		printf($dateformat,	
-			strftime("%a %d.%m.%G", $startdate), 
+		printf($dateformat,
+			strftime("%a %d.%m.%G", $startdate),
 			strftime("%H:%M", $starttime),
-			strftime("%a %d.%m.%G"	, $enddate), 
+			strftime("%a %d.%m.%G"	, $enddate),
 			strftime("%H:%M", $endtime)
 			);
 		}
@@ -302,32 +302,32 @@ function pr_event_metalist($post)
 
 	$venue = get_post_meta($post->ID, 'pr_event_venue', true);
 	if( $venue != '')
-		printf($list_format, 'fa-map-marker', __('Location', 'edgeone'), $venue);	
-	
+		printf($list_format, 'fa-map-marker', __('Location', 'edgeone'), $venue);
+
 	//price
 	$price = get_post_meta($post->ID, 'pr_event_price', true);
 	if( $price != '')
-		printf($list_format, 'fa-eur', __('Price', 'edgeone'), $price);	
+		printf($list_format, 'fa-eur', __('Price', 'edgeone'), $price);
 
 	//prereq
 	$prereq = get_post_meta($post->ID, 'pr_event_prereq', true);
 	if( $prereq != '')
-		printf($list_format, 'fa-puzzle-piece', __('Pre-requirements', 'edgeone'), $prereq);	
+		printf($list_format, 'fa-puzzle-piece', __('Pre-requirements', 'edgeone'), $prereq);
 
 	//equipment
 	$equipment = get_post_meta($post->ID, 'pr_event_equipment', true);
 	if( $equipment != '')
-		printf($list_format, 'fa-camera-retro', __('Needed equipment', 'edgeone'), $equipment);	
+		printf($list_format, 'fa-camera-retro', __('Needed equipment', 'edgeone'), $equipment);
 
 	//teacher
 	$teacher = get_post_meta($post->ID, 'pr_event_teacher', true);
 	if( $teacher != '')
-		printf($list_format, 'fa-user', __('Teacher', 'edgeone'), $teacher);	
+		printf($list_format, 'fa-user', __('Teacher', 'edgeone'), $teacher);
 
 	//groupsize
 	$groupsize = get_post_meta($post->ID, 'pr_event_groupsize', true);
 	if( $groupsize != '')
-		printf($list_format, 'fa-users', __('Group size', 'edgeone'), $groupsize);	
+		printf($list_format, 'fa-users', __('Group size', 'edgeone'), $groupsize);
 
 	//apply
 	$apply = get_post_meta($post->ID, 'pr_event_apply', true);

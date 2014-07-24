@@ -184,32 +184,32 @@ add_action( 'wp_enqueue_scripts', 'edgeone_scripts' );
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/lib/template-tags.php';
 
 /**
  * Custom functions that act independently of the theme templates.
  */
-require get_template_directory() . '/inc/extras.php';
+require get_template_directory() . '/lib/extras.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/lib/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/jetpack.php';
+require get_template_directory() . '/lib/jetpack.php';
 
 // Register Custom Navigation Walker
-require_once(get_template_directory() . '/inc/plugins/wp_bootstrap_navwalker/wp_bootstrap_navwalker.php');
+require_once(get_template_directory() . '/lib/vendor/wp_bootstrap_navwalker/wp_bootstrap_navwalker.php');
+require get_template_directory() . '/lib/pr-events/pr-events.php';
+require get_template_directory() . '/lib/pr-feature/pr-feature.php';
 
-require get_template_directory() . '/inc/pr-events/pr-events.php';
-require get_template_directory() . '/inc/pr-feature/pr-feature.php';
-//require get_template_directory() . '/inc/post-type-gallery.php';
-require get_template_directory() . '/inc/edgeone_shortcodes.php';
+//require get_template_directory() . '/lib/post-type-gallery.php';
+require get_template_directory() . '/lib/edgeone_shortcodes.php';
 // keep this last
-require get_template_directory() . '/inc/edgeone_functions.php';
+require get_template_directory() . '/lib/edgeone_functions.php';
 
 
 function temporary_facebook(){

@@ -1,7 +1,7 @@
 <?php
 /**
 * pr-nosto post-type
-* 
+*
 * @package edgeone
 */
 /**
@@ -44,8 +44,8 @@ function create_pr_feature() {
 add_action( 'init', 'create_pr_feature' );
 
 // add meta boxes
-require_once('pr-feature-meta.php');
-require_once('pr-feature-templates.php');
+require ('pr-feature-meta.php');
+require ('pr-feature-templates.php');
 
 add_action( 'init', 'pr_feature_taxonomy', 0 );
 
@@ -65,12 +65,12 @@ function pr_feature_taxonomy() {
     'all_items' => __( 'All Locations','edgeone' ),
     'parent_item' => __( 'Parent Location','edgeone' ),
     'parent_item_colon' => __( 'Parent Location:','edgeone' ),
-    'edit_item' => __( 'Edit Location','edgeone' ), 
+    'edit_item' => __( 'Edit Location','edgeone' ),
     'update_item' => __( 'Update Location','edgeone' ),
     'add_new_item' => __( 'Add New Location','edgeone' ),
     'new_item_name' => __( 'New Location Name','edgeone' ),
     'menu_name' => __( 'Locations','edgeone' ),
-  ); 	
+  );
 
   register_taxonomy('location',array('pr_feature'), array(
     'hierarchical' => true,
@@ -88,7 +88,7 @@ function pr_feature_taxonomy() {
 
 }
 
-/** 
+/**
 
 * Add columns to admin panel
 * http://wordpress.org/support/topic/admin-column-sorting
@@ -128,7 +128,7 @@ function manage_pr_feature_columns($column_name, $post_id) {
 	    default:
 	        break;
     }
-} 
+}
 add_action('manage_pr_feature_posts_custom_column', 'manage_pr_feature_columns', 10, 2);
 
 
@@ -170,7 +170,7 @@ function pr_features_show($args)
 		)
 	);
 
-	$queryargs = array( 
+	$queryargs = array(
 		'post_type' => 'pr_feature',
 		'post_count' => $length,
 		'meta_key' => 'pr_feature_order',
@@ -186,17 +186,17 @@ function pr_features_show($args)
 	if ( $the_query  -> have_posts() ){
 
 		if( isset( $before_list ) ) echo $before_list;
-		while ( $the_query  -> have_posts() ) : 
-			$the_query  -> next_post(); 
+		while ( $the_query  -> have_posts() ) :
+			$the_query  -> next_post();
 			$curpost = $the_query  -> post;
 
 			if( isset( $before_item ) ) echo $before_item;
-				
+
 			switch ($type) {
 					case 'cards':
 						pr_feature_item($curpost);
 						break;
-					
+
 					case 'link':
 						pr_feature_img_link($curpost);
 						break;
@@ -204,8 +204,8 @@ function pr_features_show($args)
 					default:
 						echo "give type!!";
 						break;
-				}	
-					
+				}
+
 			if( isset( $after_item ) ) echo $after_item;
 
 		endwhile;
