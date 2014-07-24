@@ -1,4 +1,8 @@
 <?
+
+define('GOOGLE_ANALYTICS_ID', 'UA-30043118-1');
+
+
 if ( ! function_exists( 'edgeone_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
