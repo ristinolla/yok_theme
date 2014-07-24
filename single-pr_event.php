@@ -6,6 +6,10 @@
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
 <div class="light">
 	<div class="container">
 		<main class="row" role="main">
@@ -25,7 +29,7 @@ get_header(); ?>
 				<div class="col-xs-12">
 					<h2 class="section-title"><?php echo __('Next events', 'edgeone'); ?></h2>
 				</div>
-				<?php 
+				<?php
 				$args = array(
 						'length' => 4,
 						'item_class' => "col-xs-6 col-md-3 event-item",
@@ -34,7 +38,7 @@ get_header(); ?>
 						'posts_per_page' => 40,
 				);
 				pr_event_list($args);
-				?>	
+				?>
 			</section>
 		</div>
 	</div>

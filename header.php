@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* The header. 
+* The header.
 *
 *
 **/
@@ -21,7 +21,7 @@
 
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
-	
+
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -36,4 +36,3 @@
 <div class="footer-push">
 <?php do_action( 'before' ); ?>
 
-<?php require get_template_directory() . "/header_page.php"; ?>

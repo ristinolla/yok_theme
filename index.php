@@ -12,7 +12,11 @@
  */
 
 get_header(); ?>
-<div class="light">	
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
+<div class="light">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-3">
@@ -51,11 +55,11 @@ get_header(); ?>
 	</div><!-- #primary -->
 </div>
 <?php if( !edgeone_device('mobile') ) {
-	echo '<div class="semidark">';	
+	echo '<div class="semidark">';
  	get_template_part('partials/section', 'features-4');
  	echo '</div>';
 }
 ?>
 
-	
+
 <?php get_footer(); ?>

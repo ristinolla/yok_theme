@@ -8,6 +8,10 @@
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
 <div class="light">
 	<section id="primary" class="container">
 		<main id="main" class="row" role="main">

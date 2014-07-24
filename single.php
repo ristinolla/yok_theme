@@ -6,7 +6,11 @@
  */
 
 get_header(); ?>
-<div class="light">	
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
+<div class="light">
 	<div class="container">
 		<div class="row">
 			<aside class="col-xs-12 col-sm-3">
@@ -17,7 +21,7 @@ get_header(); ?>
 			</aside>
 			<main class="col-xs-12 col-sm-9">
 
-				<?php 
+				<?php
 				while ( have_posts() ) : the_post();
 
 					get_template_part( 'content', 'single' );
@@ -25,9 +29,9 @@ get_header(); ?>
 					edgeone_post_nav();
 
 
-				
 
-				endwhile; // end of the loop. 
+
+				endwhile; // end of the loop.
 				?>
 			</main>
 

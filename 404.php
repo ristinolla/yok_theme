@@ -6,6 +6,10 @@
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
 <div class="semidark">
 	<div class="container">
 		<main class="row" role="main">

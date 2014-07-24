@@ -2,22 +2,22 @@
 /**
  * Template name: Empty page
  *
- * 
+ *
  *
  * @package edgeone
  */
 
-require get_template_directory() . "/head.php"; ?>
+require get_template_directory() . "/header.php"; ?>
 
 <body <?php body_class('empty-page'); ?> style="background: white;">
-<?php 
+<?php
 	if (have_posts()):
 		while (have_posts()) : the_post();
-			
+
 
 
 				the_content();
-				
+
 		endwhile;
 	else:
 		?>
@@ -29,7 +29,7 @@ require get_template_directory() . "/head.php"; ?>
 
 
 
-wp_footer(); 
+wp_footer();
 
 ?>
 

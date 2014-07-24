@@ -6,13 +6,17 @@
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
 <div class="light">
 <section id="primary" class="container">
 	<div class="row">
 		<aside class="hidden-xs hidden-sm col-md-3">
 			<?php get_sidebar(); ?>
 		</aside>
-	
+
 		<main id="main" class="col-xs-12 col-md-9" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -42,7 +46,7 @@ get_header(); ?>
 </div>
 
 <?php if( !edgeone_device('mobile') ) {
-	echo '<div class="semidark">';	
+	echo '<div class="semidark">';
  	get_template_part('partials/section', 'features-4');
  	echo '</div>';
 }

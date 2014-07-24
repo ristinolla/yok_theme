@@ -1,12 +1,15 @@
 <?php
 /**
- * Template Name: Etusivu 
+ * Template Name: Etusivu
  *The normal page template
  *
  * @package edgeone
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
 
 <div class="light">
 	<div class="container">

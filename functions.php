@@ -9,7 +9,7 @@
 
  * Set the content width based on the theme's design and stylesheet.
  */
-/* 
+/*
 if ( ! isset( $content_width ) ) {
 	$content_width = 640;
 }
@@ -48,7 +48,7 @@ function edgeone_setup() {
 	add_image_size( 'large_thumb', 500, 500 ); //300 pixels wide (and unlimited height)
 	//add_image_size( 'homepage-thumb', 220, 180, true ); //(cropped)
 	add_image_size('round'. 400,400, true);
-	
+
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -149,15 +149,12 @@ add_action( 'widgets_init', 'edgeone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function edgeone_scripts() {
-	
-	
+
+
 	// Styles
 	wp_enqueue_style( 'edgeone-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'opensans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300' );
 	wp_enqueue_style( 'montserrat', 'http://fonts.googleapis.com/css?family=Montserrat:700,400' );
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
-	//wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/css/bootstrap-theme.min.css' );
-	wp_enqueue_style( 'animations', get_template_directory_uri() . '/assets/css/animations.css' );
 
 	wp_enqueue_style( 'edgeone-main', get_template_directory_uri() . '/assets/css/main.css' );
 
@@ -212,7 +209,7 @@ require get_template_directory() . '/inc/pr-feature/pr-feature.php';
 //require get_template_directory() . '/inc/post-type-gallery.php';
 require get_template_directory() . '/inc/edgeone_shortcodes.php';
 // keep this last
-require get_template_directory() . '/inc/edgeone_functions.php'; 
+require get_template_directory() . '/inc/edgeone_functions.php';
 
 
 function temporary_facebook(){

@@ -7,7 +7,7 @@
 
 add_filter('show_admin_bar', '__return_false');
 /**
-	
+
 * No content function, show maybe search bar or something?
 */
 function edgeone_no_content(){
@@ -49,7 +49,7 @@ function top_parent_sidenav($post){
 		?>
 		<nav class="side-nav" role="navigation">
 				<?php
-		
+
 		if ($post->post_parent)	{
 			$ancestors=get_post_ancestors($post->ID);
 			$root = count($ancestors) - 1;
@@ -60,7 +60,7 @@ function top_parent_sidenav($post){
 		/*
 		<h2 class="normal"><a href="<?php
 			$ancestor = get_post_ancestors($parent->ID)[0];
-			$title = get_post_field( 'post_title', $ancestor ); 
+			$title = get_post_field( 'post_title', $ancestor );
 			echo get_permalink( $ancestor ); ?>" title ="<?php echo $title; ?>"><?php echo $title; ?></a></h2>
 		*/
 
@@ -69,9 +69,9 @@ function top_parent_sidenav($post){
 			"child_of" 		=> $parent,
 			'echo'        	=> 0,
 			);
-		
+
 		$children = wp_list_pages( $args );
-		
+
 		if ($children) { ?>
 		<ul class="list-unstyled">
 		<?php echo $children; ?>
@@ -135,7 +135,7 @@ function edgeone_breadcrumb() {
 /**
 * Short Post snippet
 
-** 
+**
 * Takes in array with attributes defaulting to:
 * 	before_item
 * 	after_item
@@ -166,7 +166,7 @@ function pr_short_list_posts($args){
 	$args = wp_parse_args($args, $defaults);
 	extract( $args, EXTR_SKIP );
 
-	$queryargs = array( 
+	$queryargs = array(
 		'post_type' => $post_type,
 		'posts_per_page' => $length,
 		'order' => $order,
@@ -175,25 +175,25 @@ function pr_short_list_posts($args){
 	//echo var_dump($queryargs);
 	$event_query = new WP_Query( $queryargs );
 
-	
+
 
 	//loop
-	if ( $event_query -> have_posts() ): 
+	if ( $event_query -> have_posts() ):
 
 		if( isset( $before_list )) {
 			echo $before_list;
 		}
 
-		while ( $event_query -> have_posts() ) : 
-			
-			$event_query -> next_post(); 
+		while ( $event_query -> have_posts() ) :
+
+			$event_query -> next_post();
 			$curpost = $event_query -> post;
-			
+
 			if( isset( $before_item ) ) echo $before_item;
 			printf('<a href="%1$s" title="%2$s"><time datetime="%4$s">%3$s</time>%2$s</a>',
 				esc_attr( get_permalink( $curpost->ID ) ),
 				esc_attr( $curpost->post_title ),
-				mysql2date($date_format, $curpost->post_date ), 
+				mysql2date($date_format, $curpost->post_date ),
 				esc_attr($curpost->post_date )
 			);
 			if( isset( $after_item )) echo $after_item;
@@ -203,14 +203,14 @@ function pr_short_list_posts($args){
 			echo $after_list;
 		}
 
-	endif;	
+	endif;
 
 	//
 	wp_reset_postdata();
 }
 
 /**
- Change post to News 
+ Change post to News
 *
 **/
 
@@ -223,6 +223,7 @@ function edgeone_change_post_label() {
     $submenu['edit.php'][16][0] = __('News Tags', 'edgeone');
     echo '';
 }
+
 function edgeone_change_post_object() {
     global $wp_post_types;
     $labels = &$wp_post_types['post']->labels;
@@ -243,7 +244,7 @@ function edgeone_change_post_object() {
 	$labels->menu_name 			= 	__('News', 'edgeone');
 	$labels->name_admin_bar		= 	__('News', 'edgeone');
 }
- 
+
 add_action( 'admin_menu', 'edgeone_change_post_label' );
 add_action( 'init', 'edgeone_change_post_object' );
 
@@ -264,7 +265,7 @@ function edgeone_featured_img()
 		} else {
 			$size = 'large';
 		}
-		the_post_thumbnail( $size ); 
+		the_post_thumbnail( $size );
 
 	echo '</div>';
 	endif;
@@ -343,19 +344,19 @@ function edgeone_fb_script(){
 
 /**
 **
-** Facebook like box 
+** Facebook like box
 
 */
 
 function edgeone_fb_likebox(){
  ?>
-	<div class="fb-like-box" 
-			data-href="http://facebook.com/yokamerat" 
-			data-width="550px" 
-			data-colorscheme="light" 
-			data-show-faces="true" 
-			data-header="false" 
-			data-stream="true" 
+	<div class="fb-like-box"
+			data-href="http://facebook.com/yokamerat"
+			data-width="550px"
+			data-colorscheme="light"
+			data-show-faces="true"
+			data-header="false"
+			data-stream="true"
 			data-show-border="false"></div>
  <?php
 
@@ -389,16 +390,16 @@ add_action('wp_head', 'edgeone_touch_icons');
 function edgeone_headmeta()
 {
 	?>
-	
+
 	<link rel="shortcut icon" href="<?php echo get_home_url('url'); ?>/favicon.ico" type="image/x-icon">
 	<meta name="description" content="Oulun ylioppilaskamerat ry on valokuvauksen harrastajien kerho, tapahtumiin on tervetulleita ihan kaikki, muutkin kuin opiskelijat. Järjestämme valokuvauskursseja, kuvakilpailuita sekä kuvailtoja. Tervetuloa!">
 	<meta name="keywords" content="valokvaus oulu photography valokuvauskurssi">
 
 	<?php
-	 /* open graph */ 
+	 /* open graph */
 	if(is_home()) {
 		//echo '<meta property="og:url" content="' . home_url() . '">';
-	} 
+	}
 	?>
 	<meta property="og:title" content="<?php if(is_home()) bloginfo('name'); else bloginfo('name'); wp_title('||'); ?>">
 	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">

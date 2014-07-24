@@ -6,21 +6,25 @@
  */
 
 get_header(); ?>
+
+<?php require get_template_directory() . "/header_page.php"; ?>
+
+
 <div class="light">
 <div class="container">
 	<div class="row">
-	<?php 
+	<?php
 	if (have_posts()):
 		while (have_posts()) : the_post(); ?>
 			<aside class="col-xs-12 col-sm-4 col-md-3 hidden-xs sidebar">
 				<?php top_parent_sidenav($post); ?>
 				<?php dynamic_sidebar ('Page Widgets'); ?>
 			</aside>
-			
+
 			<main  role="main" class="col-xs-12 col-sm-8 col-md-9 page-content">
 
 				<?php get_template_part( 'content', 'page' ); ?>
-				
+
 				<?php
 				/*
 					// If comments are open or we have at least one comment, load up the comment template
