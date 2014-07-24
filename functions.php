@@ -5,7 +5,6 @@
  * @package edgeone
  */
 
-define('GOOGLE_ANALYTICS_ID', '');
 
 
 /**
