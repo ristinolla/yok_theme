@@ -9473,6 +9473,10 @@ stretchRight
 .relative {
   position: relative;
 }
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background-color: #343434;
