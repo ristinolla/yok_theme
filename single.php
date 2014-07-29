@@ -10,7 +10,7 @@ get_header(); ?>
 <?php get_template_part( 'templates/header', 'page' ); ?>
 
 
-<div class="light">get_template_part( 'templates/content', 'single' );
+<div class="light">
 	<div class="container">
 		<div class="row">
 			<aside class="col-xs-12 col-sm-3">
