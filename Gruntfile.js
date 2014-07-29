@@ -178,6 +178,7 @@ module.exports = function(grunt) {
     'less:build',
     'autoprefixer:build',
     'uglify',
-    'modernizr'
+    'modernizr',
+    'version'
   ]);
 };
