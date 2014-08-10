@@ -9870,6 +9870,10 @@ h3 a:hover {
   font-size: 112%;
   line-height: 160%;
 }
+article.hentry img {
+  max-width: 100%;
+  height: auto;
+}
 h2.entry-title,
 h1.entry-title {
   font-size: 30px;
