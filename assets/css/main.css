@@ -9870,7 +9870,8 @@ h3 a:hover {
   font-size: 112%;
   line-height: 160%;
 }
-article.hentry img {
+article.hentry img,
+article.hentry .wp-caption {
   max-width: 100%;
   height: auto;
 }
