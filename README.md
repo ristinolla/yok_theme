@@ -5,19 +5,22 @@ Visit the site at www.yokamerat.org
 
 Built using Undersocres framework: http://underscores.me/
 
-## Dependencies 
+## Dependencies
 
 Needs following to be included in */lib/vendor/*:
 
-**WP_Bootstrap_navwalker**: 
+**WP_Bootstrap_navwalker**:
 https://github.com/twittem/wp-bootstrap-navwalker/
 
 
 ##Version history
 
+**1.1.1. "Bug fixes"** -- 15.9.2014
+- all around bug fixes
+
 **1.1.0. "Gruntified"** -- 24.7.2014
 
-- added support for grunt building 
+- added support for grunt building
 - fixed empty-page.php template issues
 - general repository clean up and restructure for grunt
 - decided to have version control
