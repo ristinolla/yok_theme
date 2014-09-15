@@ -7,9 +7,8 @@
  * @package edgeone
  */
 
-?>
+get_header(); ?>
 
-<?php get_template_part( 'templates/header', 'page' ); ?>
 
 <body <?php body_class('empty-page'); ?> style="background: white;">
 <?php
