@@ -9463,6 +9463,22 @@ stretchRight
     -webkit-transform: scaleX(1);
   }
 }
+input {
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 3px 4px;
+}
+input:focus,
+input:active {
+  outline: none;
+}
+.search-submit {
+  padding: 5px 15px;
+  background: #f26438;
+  border: 1px solid #e8420f;
+  color: white;
+  text-shadow: 0 0 1px #e8420f;
+}
 .semidark {
   background: #f6f6f6;
 }
@@ -9781,6 +9797,12 @@ h3 a:hover {
   margin: 0;
   padding: 0;
 }
+.nav-previous {
+  float: left;
+}
+.nav-next {
+  float: right;
+}
 .news-section ul {
   margin: 0;
   margin-bottom: 20px;
@@ -10072,6 +10094,9 @@ body#tinymce.wp-editor h3:before {
   padding: 0;
   list-style: none;
 }
+.widget {
+  margin-bottom: 20px;
+}
 .paging-navigation {
   margin-top: 30px;
 }
@@ -10124,6 +10149,7 @@ body#tinymce.wp-editor h3:before {
 .side-nav .children {
   list-style: none;
   margin: 0;
+  padding-left: 0;
 }
 .side-nav .children a {
   padding-left: 20px;
