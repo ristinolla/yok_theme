@@ -28,7 +28,7 @@ get_header(); ?>
 			<section role="main" class="row">
 				<div class="col-xs-12">
 					<h2 class="section-title"><?php echo __('Next events', 'edgeone'); ?></h2>
-				</div>
+
 				<?php
 				$args = array(
 						'length' => 4,
@@ -39,6 +39,7 @@ get_header(); ?>
 				);
 				pr_event_list($args);
 				?>
+        </div>
 			</section>
 		</div>
 	</div>

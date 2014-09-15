@@ -50,7 +50,6 @@ function edgeone_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'edgeone' ); ?></h1>
 		<div class="nav-links">
 
 			<?php previous_post_link( '%link', _x( '&laquo; %title', 'Previous post link', 'edgeone' ) ); ?>
