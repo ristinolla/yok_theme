@@ -231,7 +231,7 @@ function pr_event_list($args)
 
 
 			// time check
-			$today3am = strtotime('today 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
+			$today3am = strtotime('tomorrow 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
 			$startdate = intval( get_post_meta($curpost->ID, 'pr_event_startdate', true) );
 			$enddate = intval( get_post_meta($curpost->ID, 'pr_event_enddate', true) );
 			$pass = false;
@@ -340,9 +340,3 @@ function pr_event_metalist($post)
 	echo '</ul>';
 	echo "</div>";
 }
-
-
-
-
-
-
