@@ -63,7 +63,7 @@ require ('pr-event-templates.php');
 
 /**
 
- TAXONOMY CREATION
+TAXONOMY CREATION
 
 */
 
