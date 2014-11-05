@@ -179,7 +179,7 @@ function pr_event_list($args)
  		'item_class_one' => "only-one event-item"
 	);
 
-	$today3am = strtotime('today 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
+	$today3am = strtotime('-1 day 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
 
 	//echo date('c', $today3am);
 
@@ -188,15 +188,15 @@ function pr_event_list($args)
 
 	wp_reset_postdata();
 
-	// Check if past events
+	// Check if you want past events
 	if($past){
 		// These are past events so today shoud be bigger
 		$ordervalue = 'ASC';
-		$compare = '>=';
+		$compare = '<=';
 	} else {
 		// These are current events today shoud be smaller
 		$ordervalue = 'DESC';
-		$compare = '<=';
+		$compare = '>=';
 	}
 
 	$queryargs = array(
@@ -234,6 +234,7 @@ function pr_event_list($args)
 			$curpost = $event_query -> post;
 
 
+
 			// time check
 			$today3am = strtotime('today 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
 			$today3am = strtotime('-1 day 3:00') + ( get_option( 'gmt_offset' ) * 3600 );
@@ -242,7 +243,7 @@ function pr_event_list($args)
 			$pass = false;
 
 
-			//echo get_the_title($curpost->ID);
+			//echo get_the_title($curpost->ID) . '<br>';
 			//echo " Enddate: {$enddate} | Today: {$today3am} ";
 
 			if( $past ){
